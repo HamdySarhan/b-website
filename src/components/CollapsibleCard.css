@@ -1,0 +1,38 @@
+.collapsible-card {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+
+.arrow.top {
+  border-top: 10px solid #000;
+}
+
+.arrow.down {
+  border-bottom: 10px solid #000;
+}
+
+.card-content {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  transition: 0.2s ease-in-out;
+}

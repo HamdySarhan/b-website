@@ -1,0 +1,26 @@
+.products-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.products-menu img {
+  max-width: 100px;
+}
+
+.product-menu-item {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.product-menu-item:hover {
+  transform: scale(1.1);
+}
+
+.products-container {
+  margin-top: 10vh;
+  width: 70%;
+  margin-left: 15%;
+}
